@@ -8,6 +8,3 @@ router.register('products', ProductViewSet)
 router.register('stocks', StockViewSet)
 
 urlpatterns = router.urls
-# urlpatterns = urlpatterns + [
-#     path('products/<int:pk>/', SensorIdView.as_view()),
-# ]
